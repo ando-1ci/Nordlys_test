@@ -69,9 +69,9 @@ httpd.serve_forever()
 
 ## Adding dependencies<a id="adding-dependencies"></a>
 
-The set of dependencies vary for different applications. You can find the most popular dependencies in [Docker Hub](https://hub.docker.com/).
+The set of dependencies vary for different applications. You can find the most popular dependencies in [Docker Hub](https://hub.docker.com/). Download the required dependencies and copy them to **&lt;rootDir&gt;/dependencies**.
 
-Download the required dependencies and copy them to **&lt;rootDir&gt;/dependencies**.
+**Example**. The test project's **dependencies** folder contains the images of [Ubuntu](https://hub.docker.com/_/ubuntu) and [Python](https://hub.docker.com/_/python).
 
 ## Creating a Dockerfile<a id="creating-a-dockerfile"></a>
 
