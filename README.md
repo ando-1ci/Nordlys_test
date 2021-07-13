@@ -15,9 +15,9 @@
 
 ## Overview<a id="overview"></a>
 
-With Kubernetes, you can automate deployment, scaling, and management of containerized applications. This article shows how to prepare an application image, set up the environment, and to deploy the application on a Kubernetes cluster.
+With Kubernetes, you can automate deployment, scaling, and management of containerized applications. This article shows how to prepare an application image, set up the environment, and deploy the application on a Kubernetes cluster.
 
-For your convenience, all steps are illustrated with the examples from a simple Kubernetes test project.
+For your convenience, all steps are illustrated with examples from a simple Kubernetes test project.
 
 ## Before you begin<a id="before-you-begin"></a>
 
@@ -100,7 +100,7 @@ CMD ["python", "/app/application.py"]
 
 ## Building an image<a id="building-an-image"></a>
 
-To build an container image, run **docker build**, which has the following syntax:
+To build a container image, run **docker build**, which has the following syntax:
 
 ```bash
 $ docker build [OPTIONS] PATH
